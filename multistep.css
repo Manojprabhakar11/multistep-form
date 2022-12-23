@@ -1,0 +1,407 @@
+body{
+    background-color: aliceblue;
+}
+.containerP{
+    width: 100%;
+}
+.container{
+    width: 30%;
+    margin-left:37.5%;
+    margin-top: 17%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 2%;
+    font-size: 1.5rem;
+}
+.containerR{
+    width: 40%;
+    margin-left:30%;
+    margin-top: 4%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-size: 1.5rem;
+    display:none;
+}
+.fNameP{
+    padding-bottom: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fName{
+    width: 40%;
+    display: flex;
+}
+#fName{
+    width: 57%;
+    /* margin-left: 2%; */
+}
+.lNameP{
+    padding-bottom: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fNameE{
+    color: red;
+    padding-bottom:1% ;
+}
+.lName{
+    width: 40%;
+    display: flex;
+}
+#lName{
+    width: 57%;
+    /* margin-left: 2%; */
+}
+.lNameE{
+    color: red;
+    padding-bottom:1% ;
+    justify-content: end;
+}
+.profileP{
+    padding-bottom: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.profile{
+    width: 40%;
+    display: flex;
+}
+#profile{
+    width: 57%;
+    /* margin-left: 2%; */
+}
+.profileE{
+    color: red;
+    padding-bottom:1% ;
+}
+.educationP{
+    padding-bottom: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.education{
+    width: 40%;
+    display: flex;
+}
+#education{
+    width: 57%;
+    /* margin-left: 2%; */
+}
+.emailP{
+    padding-bottom: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.email{
+    width: 40%;
+    display: flex;
+}
+#email{
+    width: 57%;
+    /* margin-left: 2%; */
+}
+.emailE{
+    color: red;
+    padding-bottom:1% ;
+}
+.resumeP{
+    padding-bottom: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.resume{
+    width: 40%;
+    display: flex;
+}
+#resume{
+    width: 57%;
+    /* margin-left: 2%; */
+}
+.resumeE{
+    color: red;
+    padding-bottom:1% ;
+}
+.phNoP{
+    padding-bottom: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.phNo{
+    width: 40%;
+    display: flex;
+}
+#phNo{
+    width: 57%;
+    /* margin-left: 2%; */
+}
+.phNoE{
+    color: red;
+    padding-bottom:1% ;
+}
+.sexP{
+    /* justify-content: flex-start; */
+    padding-bottom: 2%;
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.sex{
+    width: 15%;
+    display: flex;
+}
+.radioBtns{
+    width: 40%;
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+}
+#male{
+    margin-left: 5%;
+}
+.dobP{
+    padding-bottom: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.dobC{
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+#dobC{
+    width: 70%;
+    margin-left: 2%;
+}
+.dobE{
+    color: red;
+    padding-bottom:1% ;
+}
+#btn{
+    border: 0;
+    padding: 5px;
+    background-color:rgb(74, 187, 121);
+    border-radius: 5px;
+}
+#btn1{
+    border: 0;
+    padding: 5px;
+    background-color:rgb(74, 187, 121);
+    border-radius: 5px;
+}
+.btnP{
+    padding-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.btn1{
+    margin-right: 2%;
+}
+.btn2{
+    display: none;
+    margin-right: 2%;
+}
+.nameResP{
+    padding-bottom: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nameRes{
+    width: 40%;
+    display: flex;
+}
+.nameResV{
+    margin-left: 2%;
+}
+.educationResP{
+    /* padding-bottom: 2%; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.educationRes{
+    width: 40%;
+    display: flex;
+}
+.educationResV{
+    margin-left: 2%;
+}
+.dobResP{
+    padding-bottom: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.dobRes{
+    width: 40%;
+    display: flex;
+}
+.dobResV{
+    margin-left: 2%;
+}
+.sexResP{
+    padding-bottom: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sexRes{
+    width: 40%;
+    display: flex;
+}
+.sexResV{
+    margin-left: 2%;
+}
+.profileRes{
+    width: 50%;
+    padding-bottom: 2%;
+}
+.emailResP{
+    padding-bottom: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sexE{
+    color: red;
+    padding-bottom:2% ;
+
+}
+.emailRes{
+    width: 40%;
+    display: flex;
+}
+.emailResV{
+    margin-left: 2%;
+    width: 45%;
+    display: flex;
+}
+.phNoResP{
+    padding-bottom: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.phNoRes{
+    width: 40%;
+    display: flex;
+}
+.phNoResV{
+    margin-left: 2%;
+}
+.card1.active{
+    display:block;
+}
+.card2.active{
+    display:block;
+}
+.card3.active{
+    display:block;
+}
+.card4.active{
+    display:block;
+}
+.card5.active{
+    display:block;
+}
+/* .card{
+    display: none;
+} */
+.card1{
+    display: none;
+}
+.card2{
+    display: none;
+}
+.card3{
+    display: none;
+}
+.card4{
+    display: none;
+}
+.card5{
+    display: none;
+   
+}
+.shake{
+    animation-name: shake;
+    border-color: red;
+    animation-duration: 2s;
+}
+h2{
+    margin-top: 0%;
+}
+@keyframes shake {
+    0% {transform: translate(3px,0) rotate(0deg);}
+    50% {transform: translate(-3px,0) rotate(0deg);}
+    100% {transform: translate(0px, 0px) rotate(0deg);}
+}
+@media screen and (max-width:1024px) {
+    .container{
+        width: 90%;
+        margin-left:5%;
+        margin-top: 17%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: white;
+        padding: 2%;
+        font-size: 1.5rem;
+        }
+        .containerR{
+            width: 90%;
+            margin-left:5%;
+            margin-top: 10%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: white;
+            /* padding: 4%; */
+            padding-top: 4%;
+            padding-bottom: 4%;
+            font-size: 1rem;
+            display:none;
+        }
+        .profileRes{
+            width: 30%;
+            padding-bottom: 2%;
+        }
+}
+/* @media screen and (max-width:500px) {
+    .emailRes{
+        width: 28%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .emailResV{
+        margin-left: 2%;
+        /* width: 45%; */
+        /* display: flex;
+    }
+} */ 
+/* @media screen and (width:1440px) {
+    .emailRes{
+        width: 20%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+} */
+.result{
+    display: inline-grid;
+}

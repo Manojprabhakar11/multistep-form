@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./multistep.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="containerP">
+    <div class="container">
+       
+        <div class="card">
+            <div class="card1 active">
+                <div>
+                    <h2>Multistep Form</h2>
+                </div>
+                <div class="fNameP">
+                <div class="fName">firstname:</div>
+                <input type="text" id="fName">
+            </div>
+            <div class="fNameE"></div>
+            <div class="lNameP">
+                <div class="lName">lastname:</div>
+                <input type="text" id="lName">
+            </div>
+            <div class="lNameE"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card2">
+                <div>
+                    <h2>Multistep Form</h2>
+                </div>
+                <div class="profileP">
+                    <div class="profile">profile:</div>
+                    <input type="url" id="profile">
+                </div>
+            <div class="profileE"></div>
+            <div class="educationP">
+                <div class="education">Education:</div>
+                <input type="text" id="education">
+            </div>
+            <div class="educationE"></div>
+            <div class="resumeP">
+                <div class="resume">Resume:</div>
+                <input type="file" id="resume">
+            </div>
+            <div class="resumeE"></div>
+        </div>
+        </div>
+        <div class="card">
+            <div class="card3">
+            <div>
+                <h2>Multistep Form</h2>
+            </div>
+                <div class="emailP">
+                <div class="email">email:</div>
+                <input type="email" id="email" pattern=".+@gmail.com" name="email">
+            </div>
+            <div class="emailE"></div>
+            <div class="phNoP">
+                <div class="phNo">number:</div>
+                <input type="number" id="phNo">
+            </div>
+            <div class="phNoE"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card4">
+                <div>
+                    <h2>Multistep Form</h2>
+                </div>
+                <div class="sexP">
+                <div class="sex">Sex:</div>
+                <div class="radioBtns">
+                    <input type="radio" value="male" name="sex"id="male">
+                    <label for="male">male</label>
+                    <input type="radio" value="female" name="sex" id="female">
+                    <label for="female">female</label>
+                    <input type="radio" value="others" name="sex" id="others">
+                    <label for="others">others</label>
+               </div>
+            </div>
+            <div class="sexE"></div>
+            <div class="dobP">
+                <div class="dobC">DOB:</div>
+                <input type="date" id="dobC">
+            </div>
+            <div class="dobE"></div>
+            </div>
+        </div>
+        <div class="btnP">
+            <div class="btn1"><input type="button" value="next" id="btn"></div>
+            <div class="btn2 btnSubmit"><input type="button" value="Submit" id="btn1" ></div>
+        </div>
+    </div>
+        <div class="containerR">
+        <div class="card">
+            <div class="card5">
+                <div>
+                    <h2>Candidate Detail</h2>
+                </div>
+                <div class="profileResP">
+                    <!-- <img class="profileRes" src="https://www.w3schools.com/images/picture.jpg"> -->
+                </div>
+                <div class="result">
+                <div class="nameResP">
+                    <div class="nameRes">Name:</div>
+                    <div class="nameResV"></div>
+                </div>
+                <div class="dobResP">
+                    <div class="dobRes">DOB:</div>
+                    <div class="dobResV"></div>
+                </div>
+                <div class="sexResP">
+                    <div class="sexRes">Sex:</div>
+                    <div class="sexResV"></div>
+                </div>
+                <div class="emailResP">
+                    <div class="emailRes">email:</div>
+                    <div class="emailResV"></div>
+                </div>
+                <div class="phNoResP">
+                    <div class="phNoRes">Number:</div>
+                    <div class="phNoResV"></div>
+                </div>
+                <div class="educationResP">
+                    <div class="educationRes"></div>
+                    <div class="educationResV"></div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./multistep.js"></script>
+</body>
+</html>
